@@ -1,0 +1,85 @@
+body {
+	background: #F5F5DC!important;
+}
+
+#login {
+	width: 300px;
+	margin:  100px auto;
+	border: 1px solid #000;
+	border-radius: 5px;
+	padding: 10px;
+}
+#login h3{
+	text-align: center;
+}
+#login table tr td{
+	margin-bottom: 10px;
+}
+
+#register{
+	width: 300px;
+	margin: 100px auto;
+	border: 2px solid blue;
+	border-radius: 8px;
+	padding: 10px;
+}
+#register table tr td{
+	height: 40px;
+}
+#register h3{
+	text-align: center;
+}
+
+#content{
+	margin: 50px auto;
+}
+#content table{
+	width: 100%;
+} 
+
+.container{
+	background: #fff;
+}
+
+.navbar{
+	padding-top: 13px;
+	background: black;
+	overflow: hidden;
+	border-radius: 0px 0px 5px 5px!important;
+}
+.navbar ul{
+	list-style: none;
+	padding: 0px;
+}
+.navbar ul li{
+	float: left;
+}
+.navbar ul li a{
+	text-decoration: none;
+	padding: 10px 20px 10px 20px;
+	color: #fff;
+}
+.navbar ul li a:hover{
+	background: #fff;
+	color: #000;
+}
+.navbar .col-md-4{
+	color: #fff;
+	text-align: right;
+}
+.navbar .col-md-4 a{
+	color: yellow;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.page{
+	float: right;
+}
+.page a{
+	margin-left: 10px; 
+}
+.page span{
+	margin-left: 10px;
+	font-weight: bold; 
+}
